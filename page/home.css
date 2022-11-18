@@ -2,3 +2,12 @@
 @import '../styles/loyout.css';
 @import '../styles/main.css';
 
+header{
+    background-color: burlywood;
+}
+main{
+    background-color: aquamarine;
+}
+footer{
+    background-color: chocolate;
+}
