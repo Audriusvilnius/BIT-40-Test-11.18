@@ -14,7 +14,7 @@
         background-attachment: fixed;
         opacity: 0.5;
         border-radius: 41px;
-        
+
     }
 
     .herohead {
@@ -103,11 +103,12 @@
         padding-top: 114px;
     }
 
-    .triocontent { 
+    .triocontent {
         display: flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         background-color: var(--contact-color);
     }
+
     .trio {
         display: flex;
         padding-top: 274px;
@@ -131,18 +132,39 @@
         height: 280px;
         border-radius: 50px;
     }
-    .duk-cont{
-        margin:118px 238px 0 257px;
-     
+
+    .duk-cont {
+        display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
     }
-    .duk{  
+    
+    .duk {
+        margin: 118px 238px 0 257px;
         font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 48px;
-            line-height: 58px;        
-            text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        padding-bottom: 118px;
     }
+
+    .duk-text {
+        display: flex;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    width: 421px;
+    height: 92px;
+        
+    }
+
     footer {
         background-color: chocolate;
     }
